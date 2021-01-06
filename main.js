@@ -97,10 +97,10 @@ function right1() {
         uploadcar1();
         uploadcar2();
     }
-    if (car1_x > 700 && j=='0');{
+    if (car1_x > 700 && j=='0'){
         console.log("car1 won");
-        document.getElementById('game_status').innerHTML = "Game Status: Car 1 Won!!!!!!!!!!!!!"
-        j=1
+        document.getElementById('game_status').innerHTML = "Game Status: Car 1 Won!!!!!!!!!!!!!";
+        j=j+1;
     }
 
 }
@@ -142,7 +142,8 @@ function right2() {
     }
     if (car2_x > 700 && j=='0'){
         console.log("car2 won");
-        document.getElementById('game_status').innerHTML = "Game Status: Car 2 Won!!!!!!!!!!!!!"
+        document.getElementById('game_status').innerHTML = "Game Status: Car 2 Won!!!!!!!!!!!!!";
+        j=j+1;
     }
 }
 function down2() {
